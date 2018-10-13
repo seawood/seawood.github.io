@@ -53,7 +53,7 @@
 `$git branch -d dev`
 
 # stash
-- 工作在分支1，突然需要从master分支新建一个分支2来处理一个bug,但是分支1上的工作没做完不能提交到master分支上，此时可以利用stash保存工作现场 \\
+- 工作在分支1，突然需要从master分支新建一个分支2来处理一个bug,但是分支1上的工作没做完不能提交到master分支上，此时可以利用stash保存工作现场 
 `$git stash`
 `$git stash list` 
 `$git stash apply 标号` 恢复
