@@ -45,4 +45,9 @@
 `$git log --pretty=oneline`
 `$git reflog`
 
-
+# branch
+`$git checkout -b dev`
+`$git checkout master`
+`$git branch`
+`$git merge dev`
+`$git branch -d dev`
